@@ -1,3 +1,10 @@
 @import './styles/base/reset';
 @import './styles/utilities/variables';
 @import './styles/components/logo';
+@import './styles/components/content';
+@import './styles/components/header';
+
+.container {
+  font-family: $font-primary;
+  background: $gradient-bg;
+}

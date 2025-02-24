@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: $space-64 0 $space-92;
+
+  &__title {
+    width: 311px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $red-dark-grayish;
+    line-height: $line-height-42;
+    letter-spacing: $letter-spacing-10;
+    font-size: $font-size-40;
+    font-weight: $font-weight-600;
+  }
+  &__decorator {
+    color: $red-desaturated;
+    font-weight: $font-weight-300;
+  }
+
+  &__description {
+    width: 311px;
+    margin: $space-16 0 $space-32;
+    color: $red-desaturated;
+    text-align: center;
+    line-height: $line-height-22;
+    font-size: $font-size-14;
+  }
+}

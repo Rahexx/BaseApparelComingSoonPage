@@ -7,11 +7,23 @@ $white: hsl(0, 0%, 100%);
 $white-gradient: hsl(0, 100%, 98%);
 $gradient-pink-start: hsl(0, 80%, 86%);
 $gradient-pink-end: hsl(0, 74%, 74%);
+$gradient-bg: linear-gradient(to bottom right, #ffffff 0%, #fff4f4 100%);
+
+$line-height-42: 42px;
+$line-height-22: 22px;
+
+$letter-spacing-10: 10.83px;
 
 $font-primary: 'Josefin Sans', serif;
 
 $font-weight-300: 300;
 $font-weight-500: 400;
-$font-weight-700: 600;
+$font-weight-600: 600;
 
+$font-size-14: 0.875rem;
+$font-size-40: 2.5rem;
+
+$space-16: 16px;
 $space-32: 32px;
+$space-64: 64px;
+$space-92: 92px;
