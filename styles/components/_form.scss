@@ -1,0 +1,45 @@
+.form {
+  position: relative;
+
+  &__input {
+    height: 48px;
+    width: 311px;
+    padding-left: $space-24;
+    border: 1px solid $red-desaturated;
+    opacity: 0.5;
+    border-radius: 28px;
+    color: $red-desaturated;
+    line-height: $line-height-28;
+    font-size: $font-size-14;
+
+    &::placeholder {
+      opacity: 0.5;
+      color: $red-desaturated;
+    }
+
+    &:focus-visible {
+      outline: 1px solid $red-desaturated;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    right: 0;
+    height: 48px;
+    width: 64px;
+    border: none;
+    background: $gradient-cta-bg;
+    border-radius: 28px;
+    box-shadow: 0 15px 20px 0 $shadow-cta;
+  }
+
+  &__alert {
+    position: absolute;
+    display: none;
+  }
+
+  &__error {
+    position: absolute;
+    display: none;
+  }
+}

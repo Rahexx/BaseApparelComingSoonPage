@@ -3,8 +3,14 @@
 @import './styles/components/logo';
 @import './styles/components/content';
 @import './styles/components/header';
+@import './styles/components/form';
+
+.container,
+input {
+  font-family: $font-primary;
+}
 
 .container {
-  font-family: $font-primary;
+  min-height: 100vh;
   background: $gradient-bg;
 }
