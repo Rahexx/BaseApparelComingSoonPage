@@ -1,14 +1,33 @@
 .form {
   position: relative;
 
+  &--error {
+    .form__input {
+      border: 1px solid $red-soft;
+      outline: 1px solid $red-soft;
+    }
+
+    .form__input:focus-visible {
+      outline: 2px solid $red-soft;
+    }
+
+    .form__alert {
+      display: block;
+    }
+
+    .form__error {
+      display: block;
+    }
+  }
+
   &__input {
     height: 48px;
     width: 311px;
     padding-left: $space-24;
     border: 1px solid $red-desaturated;
-    opacity: 0.5;
+    background: transparent;
     border-radius: 28px;
-    color: $red-desaturated;
+    color: $red-dark-grayish;
     line-height: $line-height-28;
     font-size: $font-size-14;
 
@@ -18,15 +37,16 @@
     }
 
     &:focus-visible {
-      outline: 1px solid $red-desaturated;
+      outline: 2px solid $red-desaturated;
     }
   }
 
   &__button {
     position: absolute;
-    right: 0;
-    height: 48px;
-    width: 64px;
+    top: -2px;
+    right: -2px;
+    height: 52px;
+    width: 68px;
     border: none;
     background: $gradient-cta-bg;
     border-radius: 28px;
@@ -35,11 +55,17 @@
 
   &__alert {
     position: absolute;
+    top: 12px;
+    right: 72px;
     display: none;
   }
 
   &__error {
     position: absolute;
+    bottom: -21px;
+    left: 24px;
     display: none;
+    color: $red-soft;
+    font-size: $font-size-14;
   }
 }
