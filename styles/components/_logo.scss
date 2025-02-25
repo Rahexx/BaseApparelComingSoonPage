@@ -7,3 +7,15 @@
     object-fit: cover;
   }
 }
+@media (min-width: $breakpoint-desktop-small) {
+  .logo {
+    @include absolute(75px, 165px);
+
+    &__img {
+      margin: 0;
+      height: 33px;
+      width: 158px;
+      object-fit: cover;
+    }
+  }
+}

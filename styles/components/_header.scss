@@ -28,3 +28,17 @@
     font-size: $font-size-14;
   }
 }
+
+@media (min-width: $breakpoint-desktop-small) {
+  .header {
+    margin: $space-244 0 0 $space-165;
+
+    &__title {
+      text-align: start;
+    }
+
+    &__description {
+      text-align: start;
+    }
+  }
+}

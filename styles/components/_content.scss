@@ -9,3 +9,11 @@
     object-fit: cover;
   }
 }
+
+@media (min-width: $breakpoint-desktop-small) {
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
