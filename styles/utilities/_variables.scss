@@ -10,8 +10,10 @@ $gradient-cta-bg: linear-gradient(to bottom right, #f8bfbf 0%, #ee8b8b 100%);
 $line-height-22: 22px;
 $line-height-28: 28px;
 $line-height-42: 42px;
+$line-height-71: 71px;
 
 $letter-spacing-10: 10.83px;
+$letter-spacing-17: 17.32px;
 
 $font-primary: 'Josefin Sans', serif;
 
@@ -20,14 +22,18 @@ $font-weight-500: 400;
 $font-weight-600: 600;
 
 $font-size-14: 0.875rem;
+$font-size-16: 1rem;
 $font-size-40: 2.5rem;
+$font-size-64: 4rem;
 
 $space-16: 16px;
 $space-24: 24px;
 $space-32: 32px;
+$space-40: 40px;
 $space-64: 64px;
 $space-92: 92px;
 $space-165: 165px;
 $space-244: 244px;
 
 $breakpoint-desktop-small: 1200px;
+$breakpoint-desktop-large: 1400px;

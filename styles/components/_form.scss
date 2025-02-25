@@ -42,9 +42,7 @@
   }
 
   &__button {
-    position: absolute;
-    top: -2px;
-    right: -2px;
+    @include absolute(-2px, 247px);
     height: 52px;
     width: 68px;
     border: none;
@@ -79,5 +77,33 @@
     display: none;
     color: $red-soft;
     font-size: $font-size-14;
+  }
+}
+
+@media (min-width: $breakpoint-desktop-large) {
+  .form {
+    &__input {
+      height: 56px;
+      width: 445px;
+      padding-left: $space-32;
+      font-size: $font-size-16;
+    }
+
+    &__button {
+      left: 345px;
+      height: 60px;
+      width: 100px;
+    }
+
+    &__alert {
+      top: 16px;
+      left: 305px;
+    }
+
+    &__error {
+      top: 62px;
+      left: 32px;
+      line-height: $line-height-28;
+    }
   }
 }

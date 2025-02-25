@@ -17,3 +17,10 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: $breakpoint-desktop-large) {
+  .content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
